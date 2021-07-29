@@ -1,0 +1,16 @@
+:root {
+	--accent: #2563eb;
+
+	--text-normal: #000000;
+	--text-blurb: #525252;
+
+	--background-head: #e9e9e9;
+	--background-main: #d4d4d4;
+	--background-card: #ffffff;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: var(--text-normal);
+	background-color: var(--background-main);
+}
