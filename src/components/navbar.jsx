@@ -27,6 +27,8 @@ let st = {
 		position: 'relative',
 		borderRadius: 4,
 
+		outlineStyle: 'solid',
+		outlineWidth: 2,
 		outlineOffset: 2,
 		outlineColor: 'var(--accent)',
 	},
