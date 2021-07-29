@@ -7,8 +7,6 @@ let server = await esbuild.serve({ servedir: 'public/', port: 3000 }, {
 
 	incremental: true,
 
-	minify: true,
-
 	sourcemap: true,
 	sourcesContent: true,
 	sourceRoot: 'source:///',
