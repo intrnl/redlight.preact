@@ -101,9 +101,10 @@ export function Post (props) {
 			</div>
 
 			<div className={s(st.body)}>
-				<p className={s(st.content)}>
-					{data.title}
-				</p>
+				<p
+					className={s(st.content)}
+					innerHTML={data.title}
+				/>
 				{data.post_hint === 'link' && (
 					<span className={s(st.external)}>
 						{data.domain}
