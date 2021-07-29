@@ -13,9 +13,6 @@ let defaultParams = {
 };
 
 export default function SubredditPage () {
-	// Reset the cache on changing subreddit
-	let { subreddit } = useParams();
-
 	return (
 		<Suspense fallback={<SubredditViewFallback />}>
 			<SubredditView />
